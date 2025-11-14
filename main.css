@@ -1,0 +1,265 @@
+main{
+    margin-top:110px;
+    height: 1300px;
+    
+}
+.main1{
+    display:flex;
+    grid-template-columns: 1fr 2.5fr 8fr 2.5fr ;
+    margin-left:100px;
+    margin-right:100px;
+    height:190px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.main2{
+    display:flex;
+    grid-template-columns: 1fr 2.5fr 8fr 2.5fr ;
+    margin-left:100px;
+    margin-right:100px;
+    height:190px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.main3{
+    display:flex;
+    grid-template-columns: 1fr 2.5fr 8fr 2.5fr ;
+    margin-left:100px;
+    margin-right:100px;
+    height:190px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.main4{
+    display:flex;
+    grid-template-columns: 1fr 2.5fr 8fr 2.5fr ;
+    margin-left:100px;
+    margin-right:100px;
+    height:190px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.main5{
+    display:flex;
+    grid-template-columns: 1fr 2.5fr 8fr 2.5fr ;
+    margin-left:100px;
+    margin-right:100px;
+    height:190px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius: 20px;
+    margin-top:20px;
+
+}
+.gambar-cuaca{
+    background-color: rgb(91, 178, 249);
+}
+.cuaca{
+    background-color: rgb(127, 198, 242);
+}
+.table-parameter{
+    display:flex;
+    align-items: center;
+    flex:2.5
+}
+.logo-humidity{
+    width:30px;
+    margin-left:12px;
+}
+.logo-heat{
+    width:30px;
+    margin-left:12px;
+}
+.waktu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    flex:1
+}
+.gambar-cuaca{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:2.5
+}
+.cuaca{
+    display:grid;
+    grid-template-rows: 2fr 3fr;
+    flex:8
+}
+.gambar-cuaca .gambar{
+    width:120px;
+}
+.cuaca div{
+    padding-left:50px;
+}
+.row-cuaca-atas{
+    display:flex;
+    align-items: center;
+}
+.row-cuaca-bawah p{
+    font-size:25px;
+    margin-top:0;
+    margin-bottom:5px
+    
+}
+.teks-cuaca-utama{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+.main2 .gambar-cuaca{
+    background-color: rgb(19, 29, 173);
+}
+.main2 .cuaca{
+    background-color:rgb(54, 116, 167)
+}
+.main3 .gambar-cuaca{
+    background-color: rgb(19, 29, 173);
+}
+.main3 .cuaca{
+    background-color:rgb(54, 116, 167)
+}
+.main4 .gambar-cuaca{
+    background-color: rgb(19, 29, 173);
+}
+.main4 .cuaca{
+    background-color:rgb(54, 116, 167)
+}
+.main5 .gambar-cuaca{
+    background-color: rgb(157, 0, 152);
+}
+.main5 .cuaca{
+    background-color:rgb(159, 107, 159)
+}
+.foot{
+    height: 200px;
+    margin-top:100px;
+    
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+}
+.akhir{
+    background-color: rgb(48, 42, 42);
+}
+.foot div{
+    display:flex;
+    align-items:center ;
+    width: 300px;
+}
+.foot .vio{
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+.foot .hmme{
+    display:flex;
+    justify-content: end;
+
+}
+.keterangan{
+    display:flex;
+    margin-left:100px;
+    margin-right: 100px;
+    
+}
+.keterangan div{
+    display:flex;
+    align-items: center;
+}
+.satu{
+    flex:1;
+}
+.dua{
+    flex:2.5;
+}
+.tiga{
+    flex:8;
+}
+.empat{
+    flex:2.5;
+}
+footer{
+    margin-top:100px;
+}
+.keterangan p{
+    margin-bottom:0;
+    font-size: 20px;
+    color:#112288;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.judul{
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+}
+.judul-satu{
+    flex:1;
+}
+.judul-dua{
+    flex:10.5;
+}
+.judul-tiga{
+    flex:2.5;
+}
+.judul-kota{
+    font-size: 50px;
+    margin-bottom:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    color:#06114d;
+    margin-top:0;
+}
+.judul-tanggal{
+    font-size:25px;
+    font-weight: 650;
+    color:rgb(236, 134, 16);
+}
+.video{
+    margin-left:100px;
+    margin-right:100px;
+    height: 370px;
+}
+.media{
+    width:600px;
+    border-radius:20px;
+    
+}
+.media-section{
+    display:flex;
+    justify-content: center;
+    height: 343px;
+}
+.judul-video{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color:#112288;
+}
+.judul-video p{
+    margin-top:0;
+}
+footer{
+    margin-top:0;
+}
