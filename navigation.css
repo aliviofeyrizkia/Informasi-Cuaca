@@ -1,0 +1,109 @@
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    background-color: #112288;
+    height: 90px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:100;
+}
+body{
+    margin:0;
+}
+.navigation div{
+
+    display:flex;
+    align-items: center;
+    
+}
+.anemos{
+    font-size:50px;
+    word-spacing: 20px;
+}
+
+.kanan{
+    width:100px;
+}
+.kiri{
+    width:100px;
+}
+.home{
+    border-radius:20px;
+    padding:8px;
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+}
+.home:hover{
+     border-width: 1px;
+    background-color: white;
+    color:#112288;
+    border-radius:20px;
+    padding:8px;
+    transition: 0.4s;
+    cursor:pointer;
+}
+.navigation .kiri{
+    margin-left:20px;
+}
+.navigation .kanan{
+    margin-right:20px;
+}
+.instagram button{
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+    cursor:pointer;
+    background-color: #112288;
+    padding:10px;
+    border-radius:20px;
+}
+.instagram button:hover{
+    background-color:white;
+    color: #112288;
+    border:none;
+    transition:0.4s;
+}
+.home-button{
+    background-color: #112288;
+    border-width:1px;
+    border-style:solid;
+    padding:12px;
+    border-color:white;
+    border-radius:20px;
+    color:white;
+}
+.home-button:hover{
+    background-color: white;
+    border-color:#112288;
+    color:#112288;
+    transition:0.4s;
+    cursor:pointer;
+}
+.infomete{
+    margin-left:40px;
+    margin-right:10px;
+
+}
+.infomete-button{
+    background-color: #112288;
+    border:none;
+    color:white;
+}
+.infomete-button:hover{
+  cursor:pointer;
+  opacity: 0.5;
+}
+.referensi-button{
+    background-color: #112288;
+    border:none;
+    color:white;
+}
+.referensi-button:hover{
+  cursor:pointer;
+  opacity: 0.5;
+}
